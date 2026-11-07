@@ -1,7 +1,7 @@
 import "./app.css";
-import Header from "./Header/Header.jsx";
-import About from "./About/About.jsx";
-import ArticleList from "./Article_List/ArticleList.jsx";
+import Header from "./components/Header/Header.jsx";
+import About from "./components/About/About.jsx";
+import ArticleList from "./components/ArticleList/ArticleList.jsx";
 
 const posts = [
   {
@@ -29,7 +29,7 @@ function App() {
     <div>
       <Header name="My Awesome Blog"/>
       <About 
-        image="" 
+        image=""
         about="Welcome to my blog where I share my thoughts on web development!"
       />
       <ArticleList posts={posts}/>

@@ -1,4 +1,4 @@
-import About from '/src/App/components/About/About';
+import About from '../App/components/About/About.jsx';
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 
