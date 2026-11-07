@@ -1,5 +1,5 @@
 import ArticleList from '/src/App/Article_list/ArticleList';
-import '@testing-library/jest-dom/vitest';
+import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 
 

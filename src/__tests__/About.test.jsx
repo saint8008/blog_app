@@ -1,5 +1,5 @@
 import About from '/src/App/About/About';
-import '@testing-library/jest-dom/vitest';
+import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 
 describe('About', () => {
