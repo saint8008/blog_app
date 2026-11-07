@@ -1,7 +1,7 @@
 import "./app.css";
 import Header from "./components/Header/Header.jsx";
 import About from "./components/About/About.jsx";
-import ArticleList from "./components/ArticleList/ArticleList.jsx";
+import ArticleList from "./components/Article_List/ArticleList.jsx";
 
 const posts = [
   {

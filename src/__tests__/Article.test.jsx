@@ -1,4 +1,4 @@
-import Article from '../App/components/ArticleList/Article/Article.jsx';
+import Article from '../App/components/Article_List/Article/Article.jsx';
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 

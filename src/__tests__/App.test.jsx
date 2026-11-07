@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import App from '/src/App/App';
+import App from '../App/App.jsx';
 
 describe('App', () => {
   test('renders the Header with the blog name', () => {
