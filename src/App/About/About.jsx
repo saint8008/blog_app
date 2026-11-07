@@ -1,8 +1,9 @@
-function About() {
+function About({ image, about }) {
     return (
-        <div>
-            <p>This is the about component</p>
-        </div>
+       <aside>
+        <img src={image} alt="blog logo" />
+        <p>{about}</p>
+       </aside>
     )
 }
 
