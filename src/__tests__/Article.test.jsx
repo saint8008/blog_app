@@ -1,5 +1,5 @@
 import Article from '/src/App/Article_List/Article/Article.jsx';
-import '@testing-library/jest-dom';
+import '@testing-library/jest-dom/vitest';
 import { render, screen } from '@testing-library/react';
 
 
