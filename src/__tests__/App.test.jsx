@@ -1,8 +1,10 @@
+//import { render, screen } from '@testing-library/react';
+import Header from '/src/App/Header/Header';
+import About from '/src/App/About/About';
+import Article from '/src/App/Article_List/Article/Article.jsx';
+import ArticleList from '/src/App/Article_list/ArticleList';
+import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import Header from './Header';
-import About from './About';
-import Article from './Article';
-import ArticleList from './ArticleList';
 
 describe('Header', () => {
   test('renders the blog name from props inside an h1', () => {

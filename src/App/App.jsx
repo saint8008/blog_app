@@ -27,7 +27,7 @@ const posts = [
 function App() {
   return (
     <div>
-      <Header name="My personal Blog"/>
+      <Header name="My Awesome Blog"/>
       <About 
         image="" 
         about="Welcome to my blog where I share my thoughts on web development!"
